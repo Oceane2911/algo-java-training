@@ -10,10 +10,10 @@ for (int i = ???;   // Trou 2 : ___
 ```
 
 **Raisonnement :**
-- Trou 1 : ___
-- Trou 2 : ___
-- Trou 3 : ___
-- Trou 4 : ___
+- Trou 1 : max = t[0]
+- Trou 2 : i = 1
+- Trou 3 : t[i] > max
+- Trou 4 : max = t[i]
 
 ---
 
@@ -26,9 +26,9 @@ return ???;         // Trou 4 : ___
 ```
 
 **Raisonnement :**
-- Trous 1-2 : ___
-- Trou 3 : ___
-- Trou 4 : ___
+- Trous 1-2 : t[i] == val
+- Trou 3 : true
+- Trou 4 : false
 
 ---
 
@@ -40,9 +40,9 @@ if (t[i] ??? 2 == ???)  // Trou 1 et 2 : ___ et ___
 ```
 
 **Raisonnement :**
-- Trou 1 : ___
-- Trou 2 : ___
-- Trou 3 : ___
+- Trou 1 : %
+- Trou 2 : 0
+- Trou 3 : t[i]
 
 ---
 
@@ -55,6 +55,6 @@ res[i ??? 2 ??? 1] = t[i];              // Trou 3 et 4 : ___ et ___
 ```
 
 **Raisonnement :**
-- Trou 1 : ___
-- Trou 2 : ___
-- Trous 3-4 : ___
+- Trou 1 : *
+- Trou 2 :res[i * 2]
+- Trous 3-4 : res[i * 2 + 1]
