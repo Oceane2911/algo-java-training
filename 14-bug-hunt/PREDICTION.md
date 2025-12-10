@@ -44,4 +44,4 @@
 
 **Ce qui va se passer :** count seras egale à 1
 
-**Correction proposée :** enlever le returb du if et de la boucle
+**Correction proposée :** enlever le return du if et de la boucle
